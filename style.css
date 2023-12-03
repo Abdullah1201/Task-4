@@ -1,0 +1,488 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+    
+
+    .container{
+     position: relative;
+     height: 100vh;
+     width: 100%;
+     display: flex;
+       
+    }
+    /* start side bar */
+.sideBar{
+    width: 260px;
+    /* height: 200vh; */
+    /* overflow: hidden; */
+    background:  #F8F8F8;
+
+}
+.logo{
+    padding: 15px;
+}
+.logo .icon{
+    font-size: 2em;
+    color: #333;
+}
+.button{
+    padding: 5px 18px;
+}
+.button a{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+   display: inline-block;
+    padding: 8px 25px;
+    background: #085fa7;
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    gap: 14px;
+}
+.button a .icon{
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.button a .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+}
+.sideBar h3{
+    color: #666161;
+    margin: 14px;
+}
+.fileIcon li:nth-child(1){
+    padding: 0 12px;
+}
+
+.fileIcon  li a{
+    display: flex;
+}
+.fileIcon li a .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 20px;
+    height: 20px;
+    font-size: 0.7em;
+    color: #6e6d6d;
+    padding: 5px;
+}
+.fileIcon li:nth-child(2) a{
+    padding: 2px 33px;
+ 
+}
+.fileIcon li:nth-child(3) a{
+    padding: 2px 33px;
+}
+.fileIcon li:nth-child(4) a{
+    padding: 2px 33px;
+}
+.fileIcon li:nth-child(5) a{
+    padding: 2px 33px;
+}
+.fileIcon li:nth-child(6) a{
+    padding: 2px 33px;
+}
+.sideBar ul li:nth-child(7) a{
+    padding: 2px 33px;
+}
+
+.fileIcon li:nth-child(1) a .icon{
+    padding: 5px;
+}
+
+.fileIcon a .text{
+    display: flex;
+    align-items: center;
+    height: 20px;
+    font-size: .8em;
+    color: #000000;
+    letter-spacing: 0.05em;
+    font-weight: 800;
+ 
+}
+
+
+.fileIcon li:nth-child(n) a .text{
+    padding: 5px;
+    font-weight: 600;
+}
+
+.social{
+    margin-top: 10px;
+}
+.social li a{
+    display: flex;
+}
+
+.social li a .icon{
+    font-size: 0.9em;
+    color: #806767;
+}
+.social li a .text{
+ 
+    font-size: 0.9em;
+    margin: -1px 8px 0px 10px;
+    font-weight: 500;
+    color: #8C7D7D;
+  
+}
+.social li:nth-child(1){
+    padding: 2px 24px;
+    margin: 8px 15px;
+
+}
+.social li:nth-child(2){
+    padding: 2px 24px;
+    margin: 8px 15px;
+
+}
+.social li:nth-child(3){
+    padding: 2px 24px;
+    margin: 8px 15px;
+
+}
+.social li:nth-child(4){
+    padding: 2px 24px;
+    margin: 8px 15px;
+
+}
+.progrssBar{
+    position: absolute;
+    bottom: 60px;
+    left: 0px;
+    width: 240px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.progrssBar h5{
+    color: #333;
+    font-size: 500;
+    letter-spacing: 1px;
+}
+.progrssBar h5 span{
+    color: #8289AD;
+    font-weight: 500;
+}
+.progrssBar p{
+    color: #0059ff;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+.progrssbarBorder{
+    position: absolute;
+    bottom: 37px;
+    left: -4px;
+    background: #086363;
+    width: 187px;
+    height: 2px;
+    margin:10px 30px;
+    background: gainsboro;
+
+}
+.barBox{
+    position: absolute;
+    width: 160px;
+    height: 2px;
+    background: #0059ff ;
+}
+.navFooter{
+    position: absolute;
+    bottom: 8px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+    padding: 0 26px;
+
+}
+.navFooter h6{
+    font-size: 0.7em;
+    font-weight: 700;
+}
+.navFooter h6 span{
+    font-size: 0.7em;
+    font-weight: 600;
+    color: #807777;
+}
+.footerIcon{
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.iconUp, .iconDown{
+    font-size: 0.6em;
+}
+
+/* end side bar */
+
+.rightSide{
+    width: calc(100% - 260px);
+    /* height: 100vh; */
+    background: #fff;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 16px;
+}
+.searchBox{
+    position: relative;
+    width: 760px;
+    height: 50px;
+    /* background: #f00; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+.searchBox input{
+    /* position: relative; */
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 3px 35px;
+    outline: none;
+    font-size: 12px;
+    color: #575757;
+    font-weight: 500;
+    background:  #F5F5F5;
+    border-radius:5px;
+   margin: 8px 4px 0;
+  
+}
+.searchBox .search{
+    position: absolute;
+    top: 20px;
+    left: 13px;
+    color: #333;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.searchBox .downArrow{
+    position: absolute;
+    top: 17px;
+    right: 16px;
+    color: #575757;
+    font-size: 20px;
+    font-weight: 300;
+}
+.searchBtnIcon{
+    position: relative;
+    width: 287px;
+    height: 56px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 20px;
+}
+.searchBtnIcon a{
+    display: inline-block;
+    padding: 6px 23px;
+    background: #fff;
+    border: 1px solid #6B6B6B;
+    border-radius: 5px;
+    color: #4F4E4E;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 13px;
+    text-align: center;
+}
+.searchBtnIcon ion-icon{
+    font-size: 32px;
+    color: #9598a1;
+}
+.searchBtnIcon .profile{
+    font-size: 45px;
+    color: #D9D9D9;
+}
+.downOutline{
+    position: absolute;
+    font-size: 20px;
+    color: #9598a1;
+    top: 20px;
+    right: 15px;
+
+}
+.quickTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.quickTitle h3{
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    line-height: 24.2px;
+    text-align: center;
+}
+.quickTitle h5{
+    font-weight: 500;
+    color: #0066FF;
+    font-size: 13px;
+    line-height: 15px;
+}
+.folderCard{
+    display: flex;
+    margin: 20px;
+    gap: 15px;
+}
+.folderDetails{
+    width: 200px;
+    height: 180px;
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.folderDetails img{
+    width: 98px;
+    height: 100px;
+}
+.folderDetails h5{
+    font-size: 0.8em;
+    margin-top: 10px;
+    padding: 0 0;
+    color: #3b3a3a;
+}
+.recentSection{
+    width: 100%;
+}
+.recentTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.recentTitle h2{
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    line-height: 24.2px;
+    text-align: center;
+}
+.recentTitle h4{
+    font-weight: 500;
+    color: #0066FF;
+    font-size: 13px;
+    line-height: 15px;
+}
+/* table start */
+.recentTableContainer{
+    width: 100%;
+}
+
+.tableContainer{
+    width: 98%;
+    border-collapse: collapse;
+    /* margin: 0 20px; */
+}
+.tableContainer tr{
+    border-bottom:  1px solid #777777;
+}
+.tableContainer th, td{
+    text-align: left;
+    padding: 5px 2px 2px 12px;
+}
+.tableContainer td{
+    padding-left: 20px;
+}
+.tableContainer tr .document{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.tableContainer tr .document i,
+.tableContainer tr td{
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 600;
+    color: #000000;
+}
+.tableContainer tr td small{
+    color: #646464;
+    font-weight: 500;
+    font-size: 8px;
+}
+
+.tableContainer tr td img{
+    width: 26px;
+    height: 30px;
+
+}
+.tableContainer tr .profileNumber{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.tableContainer tr .colonSvg img{
+    width: 18px;
+    height: 18px;
+}
+
+
+
+
+/* .aside-bar{
+    width: 25%;
+    height: 350px;
+    background-color: #dcd8d8;
+    padding: 20px;
+    left: 920px;
+    top: 352px;
+    position: absolute;
+    border-radius: 10px;
+    text-align: center;
+}
+.aside-bar h2{
+    font-size: 1.1em;
+}
+.aside-bar img{
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 0px 0px 10px 0px;
+}
+.aside-bar p {
+    text-align: center;
+    margin: 5px;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+.cardBtn{
+    display: inline-block;
+    padding: 6px 35px;
+    background: #085fa7;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9em;
+    font-weight: 600;
+} */

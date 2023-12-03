@@ -1,0 +1,52 @@
+<svg width="26" height="30" viewBox="0 0 26 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_16_50)">
+<g filter="url(#filter0_ii_16_50)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.71393 2.95332C5.33935 2.95332 4.22504 4.06764 4.22504 5.44221V24.9978C4.22504 26.3723 5.33935 27.4867 6.71393 27.4867H19.2861C20.6607 27.4867 21.775 26.3723 21.775 24.9978V9.08666L16.3584 2.95332H6.71393Z" fill="#F6AD00"/>
+</g>
+<g filter="url(#filter1_dd_16_50)">
+<path d="M8.09309 20.732L10.0673 17.4464C10.0926 17.4043 10.1257 17.369 10.1644 17.343C10.2031 17.317 10.2463 17.3009 10.2911 17.2959C10.3358 17.2909 10.381 17.2971 10.4234 17.3141C10.4658 17.3311 10.5044 17.3584 10.5364 17.3941L11.8411 18.8416L14.7039 13.7609C14.7322 13.7105 14.7715 13.6692 14.8181 13.641C14.8647 13.6128 14.9168 13.5987 14.9696 13.6001C15.0224 13.6014 15.074 13.6181 15.1194 13.6486C15.1647 13.6792 15.2024 13.7224 15.2287 13.7742L18.7856 20.7539C18.8126 20.8068 18.8268 20.8668 18.8269 20.9278C18.8269 20.9889 18.8127 21.0489 18.7857 21.1017C18.7588 21.1546 18.72 21.1985 18.6733 21.229C18.6265 21.2595 18.5735 21.2755 18.5196 21.2754H8.34699C8.2911 21.2756 8.23625 21.2584 8.18834 21.2258C8.14043 21.1932 8.10129 21.1465 8.07514 21.0905C8.049 21.0346 8.03684 20.9717 8.03997 20.9085C8.04311 20.8453 8.06143 20.7843 8.09295 20.732H8.09309Z" fill="white"/>
+<path d="M8.68431 13.2924C8.68431 13.7572 8.84737 14.203 9.13762 14.5316C9.42786 14.8603 9.82152 15.0449 10.232 15.0449C10.6425 15.0449 11.0361 14.8603 11.3264 14.5316C11.6166 14.203 11.7797 13.7572 11.7797 13.2924C11.7797 12.8277 11.6166 12.3819 11.3264 12.0533C11.0361 11.7246 10.6425 11.54 10.232 11.54C9.82152 11.54 9.42786 11.7246 9.13762 12.0533C8.84737 12.3819 8.68431 12.8277 8.68431 13.2924Z" fill="white"/>
+</g>
+<path d="M21.2668 8.51167H16.8661L21.775 14.07V9.08667L21.2668 8.51167Z" fill="url(#paint0_linear_16_50)"/>
+<path d="M18.8472 9.08667L21.775 9.08667L16.3584 2.95334L16.3584 6.59778C16.3584 7.97236 17.4727 9.08667 18.8472 9.08667Z" fill="#FBDE99"/>
+</g>
+<defs>
+<filter id="filter0_ii_16_50" x="4.22504" y="2.79777" width="17.55" height="24.8445" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-0.311111"/>
+<feGaussianBlur stdDeviation="0.0777778"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_16_50"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="0.311111"/>
+<feGaussianBlur stdDeviation="0.0777778"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="effect1_innerShadow_16_50" result="effect2_innerShadow_16_50"/>
+</filter>
+<filter id="filter1_dd_16_50" x="7.03949" y="10.54" width="19.7874" height="20.7354" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="4" dy="6"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_16_50"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="0.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.4 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_16_50" result="effect2_dropShadow_16_50"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_16_50" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_16_50" x1="17.9664" y1="7.26584" x2="23.4821" y2="12.137" gradientUnits="userSpaceOnUse">
+<stop stop-opacity="0.2"/>
+<stop offset="1" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_16_50">
+<rect width="26" height="29.44" fill="white" transform="translate(0 0.5)"/>
+</clipPath>
+</defs>
+</svg>
